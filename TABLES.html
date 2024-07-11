@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px
+        }
+        tr:nth-child(even){
+            background-color:#414141;
+        }
+    </style>
+</head>
+<body>
+    <table style="width:100%;">
+        <colgroup>
+            <col span="2" style="background-color: cadetblue"/>
+        </colgroup>
+        <tr>
+            <th colspan="2">NAME</th>
+            <th>Surname</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Abhay</td>
+            <td>Pal</td>
+            <td>abhaypal93584@gmail.com</td>
+        </tr>
+        <tr>
+            <td>United States of America</td>
+            <td>USA</td>
+            <td>usa@google.com</td>
+        </tr>
+        <tr>
+            <td>Russia</td>
+            <td>RUS</td>
+            <td>russia@google.com</td>
+        </tr>
+        <tr>
+            <th>CODE</th>
+                <td>IN</td>
+                <td>JP</td>
+            </th>
+        </tr>
+    
+    </table>
+</body>
+</html>
